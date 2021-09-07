@@ -8,7 +8,9 @@ categories: blog
 # Why I Am Here?
 I've pretty much wanted to be a software developer all my adult life. I suppose it's a combination of life happening and me not being able to consistantly put in the work to become one (or more accurately too lazy). It has been an on and off thing for many, many years.
 
-Last month, I decided to dabble in Ethical Hacking last month. I do a bit of studying and come across the Twilio program and try unsuccessfully to hack the platform. Their SendGrid product catches my eye and this could be a solution for a pain point as a real estate agent. At the end of each month, I need to send a bunch of emails to our landlords with individual attachments which your standard mail merge will not support. So I spent a weekend and built a program in Node. It takes data from a spreadsheet and sends customized emails with individual attachments using the SendGrid platform.
+Last month, I decided to dabble in Ethical Hacking last month. I come across the Twilio program and try to unsuccessfully hack the platform. SendGrid from Twilio catches my eye and this could be a solution for a pain point as a real estate agent. 
+
+At the end of each month, I need to send a bunch of emails one by one to our landlords with individual attachments which your standard mail merge will not support. So I spent a few days and built a program in Node. It takes data from a spreadsheet and sends customized emails with individual attachments using the SendGrid platform.
 
 I created value for myself and I think that is the power of software.
 

@@ -15,7 +15,7 @@ I created value for myself and I think that is the power of software.
 Thinking abstractly, if I was to present a solution or multiple solutions to a customer, what is the value proposition that I am presenting? Where is the value coming from? Am I saving them time and/or money?
 
 ## What Am I Doing Now?
-This past week, I have been working on a property management software project. I don't intend on commercializing this, I just thought it would be a really good project for a portfolio where I get to build something bigger than anything that I have ever built and where I get to use some of my domain knowledge as someone in this industry.
+This past week, I have been working on a property management software project. I don't intend on commercializing this, I just thought it would be a really good project for a portfolio where I get to build something bigger and where I get to use some of my domain knowledge as someone in this industry.
 
 It's clear to me that are a lot of gaps in my knowledge and I'm no where near where I need to be as a developer. Frankly, this project was a bit too ambitious for my current skillset. So I'm going to put this project on hold for a while and work on a few smaller projects. 
 

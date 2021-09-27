@@ -30,7 +30,7 @@ Other potential features include:
 
 ## Ten Thousand Foot View
 
-I plan on building the following three APIs for my backend. 
+I want to have some separtion of concerns, so the project will be split into the three components below.
 - The Core API - Handles the core property management functionality outlined above,
 - The Users API - AuthN & AuthZ,
 - The Mailing API - Allows our users to send single or batch emails or sms to others. This should only be available to real estate agents and not available to landlords and tenants.
@@ -43,7 +43,7 @@ And in the future, if my mind and body are willing:
 
 The heart of the application is the payments system. Since we are dealing with financial transactions, payment records should be immutable. To delete a payment is to say that the payment never existed and that is a problem. For example, when a payment is accidentally credited to your bank account. The bank doesn't delete the record, instead the bank creates a new payment record as debit instead. This is a very, very strong case for the event driven Apache Kafka and it's immutable logs.
 
-For now though, it's currently set to be a Loopback 4 server application with a PostgreSQL database. I won't rule out a rewrite with Kafka. I have been spending some time familiarizing myself with the Kafka concepts. I might even learn Java.
+For now though, it's currently set to be a Loopback 4 server application with a PostgreSQL database. But I won't rule out a rewrite with Kafka. I have been spending some time familiarizing myself with the Kafka concepts and maybe I might even learn Java.
 
 ## The Users API
 

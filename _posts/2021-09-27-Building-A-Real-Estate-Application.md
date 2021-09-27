@@ -31,9 +31,9 @@ Other potential features include:
 ## Ten Thousand Foot View
 
 I plan on building the following three APIs for my backend. 
-- Core API - Handles the core property management functionality outlined above,
-- Users API - AuthN & AuthZ,
-- Mailing API - Allows our users to send single or batch emails or sms to others. This should only be available to real estate agents and not landlords and tenants.
+- The Core API - Handles the core property management functionality outlined above,
+- The Users API - AuthN & AuthZ,
+- The Mailing API - Allows our users to send single or batch emails or sms to others. This should only be available to real estate agents and not available to landlords and tenants.
 
 And in the future, if my mind and body are willing:
 - Landlords API - Allows landlords to view information and documents relating to their properties,
@@ -53,12 +53,11 @@ Currently set to be an Express Server Application using Firebase Auth. I will de
 
 ## The Mailing API
 
-I haven't thought too much about this as it is not part of my minimum viable product. However I intend on this being an Express application that consumes the Twilio/SendGrid services.
+I haven't thought too much about this as it is not part of my minimum viable product. I intend on this being an Express application that consumes the Twilio/SendGrid services.
 
 ## A Note on the Landlord API and Tenant API
 
-I also haven't thought too much about this. But I think a key-value NoSQL database like Cassandra seems to be a good fit for the document system here.
-
+Haven't thought too much about this as well. But I think a key-value NoSQL database like Cassandra seems to be a good fit for the document system here.
 
 ***
 
@@ -70,7 +69,7 @@ I also haven't thought too much about this. But I think a key-value NoSQL databa
 - About JWT tokens and refresh tokens.
 
 ## What I Like So Far
-- Loopback 4: The generated code is extremely well built and well laid out. In particular the OpenAPI explorer and it's "API Design First" approach is amazing. It's documentation is amazing as well, I love how they outline concepts like dependency injection, extensions & extension points. It has really solidified ideas such as controllers and models for me.
+- Loopback 4: The generated code is extremely well built and well laid out. I'm in love with the OpenAPI explorer and it's "API Design First" approach. It's documentation is amazing as well, I love how they outline concepts like dependency injection, extensions & extension points. It has really solidified ideas such as controllers and models for me.
 - Firebase Auth Emulator: Amazing for integration testing. There are a few kinks like the reset password not working with chai-http, but I believe it's a relatively new project from Firebase.
 - Testing APIs with Postman
 - Unit and Integration Testing

@@ -23,12 +23,12 @@ In this example, I have
 // Return empty object.
 let mockResponse = () => ({});
 
-jest.mock({"local/auth", () => {
+jest.mock("local/auth", () => {
     return {
         auth: jest.fn(),
         signInWithEmailAndPassword: jest.fn(() => mockResponse())
     };
-}});
+});
 
 afterAll(() => {
   jest.resetModules();

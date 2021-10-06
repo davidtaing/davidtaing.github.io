@@ -5,8 +5,6 @@ date: 2021-10-06
 categories: blog
 ---
 
-I put my real estate project on hold and decided to redo my todo app. It is my first time using Next.js and I think it's a pretty cool project. It was also my first time using Jest as well and came up with a cool solution to being able to have different mocked responses.
-
 ## Steps
 
 1. Declare a function variable and assign an arrow function to it.
@@ -14,8 +12,6 @@ I put my real estate project on hold and decided to redo my todo app. It is my f
 3. In your beforeAll hook, assign a new arrow function that returns desired mockResponse.
 
 ## Example
-
-In this example, I have 
 
 ```javascript
 // Imports
